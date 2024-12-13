@@ -5,7 +5,7 @@
     <style>
         .screen{
             background-color: #666666;
-            height: 750px;
+            height: 720px;
             margin: 20px;
             padding: 15px;
         }
@@ -19,21 +19,47 @@
         }
 
         .menues{
-            background-color: tomato;
-            height: 50px;
+            background-color: black;
             position: fixed;
             bottom: 100px;
             width: 1450px;
+            display: flex;
+            justify-content: center;
+            padding: 5px 0;
         
+        }
+        .logo{
+            height: 50px;
+            background-color:#cccccc;
+            padding: 5px 10px;
+            border-radius: 30px;
+            margin: 0 5px;
+
+        }
+        .btn{
+            position: fixed;
+            top: 40px;
+            right: 50px;
+            background-color: #b3ccff;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            padding: 5px;
         }
     </style>
 </head>
 <body>
     <div class="screen">
         <div class="box">
-            1
+            <button class="btn">Start Recording</button>
             <div class="menues">
-                2
+                <img src="./../img/logos/mic.png" class="logo">
+                <img src="./../img/logos/video.png" class="logo">
+                <img src="./../img/logos/call.png" class="logo">
+                <img src="./../img/logos/emoji.png" class="logo">
+                <img src="./../img/logos/share.png" class="logo">
+                <img src="./../img/logos/hand.png" class="logo">
+                <img src="./../img/logos/setting.png" class="logo">
             </div>
         </div>
     </div>
